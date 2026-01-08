@@ -2,7 +2,11 @@
   "name": "maths-ohrg-org",
   "version": "1.0.0",
   "private": true,
+  "description": "minimist dependency forces npm to populate .npm/ cache, enabling Cloudflare Pages to cache our custom files (.npm/_rheo/, .npm/_cargo/)",
   "scripts": {
     "build": "bash scripts/build-with-cache.sh"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
   }
 }
