@@ -11,6 +11,8 @@ This semester (Spring 2026) we are meeting on *Fridays* at *12pm-1.15pm EST*.
 
 To join our mailing list, please email #link("mailto:maths@ohrg.org?subject=JOIN")[maths\@ohrg.org] with the subject header 'JOIN', and a 1-2 sentence explanation of your interest in the group. 
 
+Subscribe to our #link("https://calendar.proton.me/api/calendar/v1/url/U1OSzBiOq3bjKvwRiTQ3kI6Z2cWlLYI5YYrOPeIE8pS4QUgX1kSBWOw-v5u1MuFD_kx3FvOu-n4r8YnhrPlzWA==/calendar.ics?CacheKey=BFrX9JrD_1q0xjzlJdo6Vw%3D%3D&PassphraseKey=CukTREmh1ezElZSJscWzB009huxZ55eUWh3rcrxs0po%3D")[public calendar] for upcoming meetings. 
+
 == Sessions
 ==== Upcoming
 - _January 16, 2026._ @vonfoersterUnderstandingUnderstandingEssays2003[pp.1-20, 247-261].
