@@ -4,7 +4,7 @@
 = #doc-title
 
 #emph(doc-title) is an online reading group run by the #link("https://freecomputinglab.ohrg.org")[Free Computing Lab].
-Our aim as a group is to learn about the interface between mathematics, philosophy, and critical theory.
+We read texts at the interface of mathematics, philosophy, and critical theory.
 
 We meet on an an approximately bi-weekly basis during the academic semester.
 This semester (Spring 2026) we are meeting on *Fridays* at *12pm-1.15pm EST*.
