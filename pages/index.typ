@@ -6,7 +6,7 @@
 
 #emph(doc-title) is an online reading group run by the #link("https://freecomputinglab.ohrg.org")[Free Computing Lab].
 We read texts at the interface of mathematics, philosophy, and history.
-See @history for more info.
+See @focus for more info.
 
 We meet on an an approximately bi-weekly basis during the academic semester.
 This semester (Spring 2026) we are meeting on *Fridays* at *12pm-1.15pm EST*.
@@ -17,7 +17,7 @@ Subscribe to our #link("https://calendar.proton.me/api/calendar/v1/url/U1OSzBiOq
 
 = Sessions
 === Upcoming
-- _January 16, 2026._ @vonfoersterUnderstandingUnderstandingEssays2003[pp.1-20, 247-261].
+- _January 23, 2026._ @vonfoersterUnderstandingUnderstandingEssays2003[pp.1-20, 247-261].
 === Past 
 - _December 8, 2025._ @naderiMarkLackFormalism2018.
 - _November 24, 2025._ @millerSutureElementsLogic1977.
@@ -50,7 +50,7 @@ Subscribe to our #link("https://calendar.proton.me/api/calendar/v1/url/U1OSzBiOq
 - _June 2024._ First meeting.
 - _November 2024._ First on-site paper presentation and feedback session with our group's core members in Conneticut.
 
-= Our focus
+= Our focus <focus>
 As computer science has grown in stature as a discipline in the university, as Moore's law is pushing computing into all the corners of our life and thought, there is no better time to ask why a more robust rapport between mathematics and critical theory has not emerged.
 Is it as simple as the fact that, as Sarah Pourciau seems to suggest, humanistic thought is aligned with the _apeiron_, whereas the sciences by definition rely on 'carving' it up into _peras_ @pourciauDigitalOcean2022?
 Or is there an interdisciplinary space where one can test the waters of a common language? 
