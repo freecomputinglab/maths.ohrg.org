@@ -17,12 +17,13 @@ Subscribe to our #link("https://calendar.proton.me/api/calendar/v1/url/U1OSzBiOq
 
 = Sessions
 === Upcoming
+- _February 10, 2026._ @longoConstructedObjectivityMathematics2003.
 === Past 
 - _January 23, 2026._ @vonfoersterUnderstandingUnderstandingEssays2003[pp.1-20, 247-261].
 - _December 8, 2025._ @naderiMarkLackFormalism2018.
 - _November 24, 2025._ @millerSutureElementsLogic1977.
 - _October 19, 2025._ @schmidDiagonalMethodDialectical2025.
-- _October 6, 2025._ @castelleContextualizingHighDimensionalCommunication2025. 
+- _October 6, 2025a.._ @castelleContextualizingHighDimensionalCommunication2025. 
 - _September 22, 2025._ @weatherbyLanguageMachinesCultural2025[pp.1-40].
 - _August 1, 2025._ @mehrtensNationalismInternationalism1996.
 - _July 18, 2025._ @berkeleyAnalystDiscourseAddressed1754.
@@ -35,7 +36,7 @@ Subscribe to our #link("https://calendar.proton.me/api/calendar/v1/url/U1OSzBiOq
 - _March 7, 2025._ @vasilievImaginaryNonaristotelianLogic1925.
 - _February 20, 2025._ @kriegerConventionHowMeans2015.
 - _February 6, 2025._ @horlSacredChannelsArchaic2018[pp.89-108].
-- _January 24, 2025._ @serresIntroduction1995. 
+- _January 24, 2025._ @serresIntroduction1995.
 - _November 15, 2024._ (cancelled) @joqueRevolutionaryMathematicsArtificial2022. 
 - _October 17, 2024._ @babbageEconomyMachineryManufactures1832[pp.i-50].
 - _October 4, 2025._ @peirceElementsLogic1974[pp.134-173].
