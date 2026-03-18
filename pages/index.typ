@@ -18,8 +18,9 @@ To join our mailing list, please email #link("mailto:maths@ohrg.org?subject=JOIN
 
 = Sessions
 === Upcoming
-- _March 6, 2026._ @husserlOriginGeometry1970.
+- _March 27, 2026._ @benacerrafWhatNumbersCould1965.
 === Past 
+- _March 6, 2026._ @husserlOriginGeometry1970.
 - _February 10, 2026._ @longoConstructedObjectivityMathematics2003.
 - _January 23, 2026._ @vonfoersterUnderstandingUnderstandingEssays2003[pp.1-20, 247-261].
 - _December 8, 2025._ @naderiMarkLackFormalism2018.
