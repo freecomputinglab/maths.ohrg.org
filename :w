@@ -18,6 +18,7 @@ To join our mailing list, please email #link("mailto:maths@ohrg.org?subject=JOIN
 
 = Sessions
 === Upcoming
+- _May 1, 2026_ @henkleOntologyNumberLimits2026.
 === Past
 - _April 10, 2026_ @avigadMathematiciansAgeAI2026.
 - _March 27, 2026._ @benacerrafWhatNumbersCould1965.
