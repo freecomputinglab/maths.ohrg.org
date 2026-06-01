@@ -10,7 +10,7 @@ We read texts at the interface of mathematics, philosophy, and history.
 See @focus for more info.
 
 We meet on an an approximately bi-weekly basis during the academic semester.
-This semester (Spring 2026) we are meeting on *Fridays* at *12pm-1.15pm EST*.
+This summer (2026) we are meeting on *Mondays* at *12pm-1.15pm EST*.
 
 To join our mailing list, please email #link("mailto:maths@ohrg.org?subject=JOIN")[maths\@ohrg.org] with the subject header 'JOIN', and a 1-2 sentence explanation of your interest in the group.
 
