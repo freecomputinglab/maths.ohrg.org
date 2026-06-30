@@ -6,8 +6,8 @@ echo "=== Starting build ==="
 echo "Timestamp: $(date)"
 
 # Setup paths
-REPO_DIR="$(pwd)"
-RHEO_VERSION="v0.2.0"
+REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+RHEO_VERSION="v$(grep '^version' "$REPO_DIR/rheo.toml" | sed 's/version = "\(.*\)"/\1/')"
 RHEO_CACHE="$REPO_DIR/.rheo-binary"
 RHEO_BIN="$RHEO_CACHE/rheo"
 
