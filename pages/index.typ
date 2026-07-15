@@ -18,8 +18,9 @@ To join our mailing list, please email #link("mailto:maths@ohrg.org?subject=JOIN
 
 = Sessions
 === Upcoming
-- _July 6, 2026_ @bernoulliHydrodynamics1968.
+- _July 20, 2026_ @deringerIntroductionPoliticalCalculations2018.
 === Past
+- _July 6, 2026_ @bernoulliHydrodynamics1968.
 - _June 22, 2026_ @meliEquivalencePriorityNewton1993.
 - _June 8, 2026_ @atiyahMathematics20thCentury2002.
 - _May 1, 2026_ @henkleOntologyNumberLimits2026.
