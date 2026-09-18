@@ -1,7 +1,7 @@
 #import "@rookery/core:0.1.0": idea, rookery
 #import "@rookery/search:0.1.0": search-modal
 #import "@rookery/bibtex:0.1.0": bibtex
-#import "@rheo/justify:0.1.1": template as justify-template
+#import "@rheo/justify:0.1.2": template as justify-template
 #import "@rheo/feeds:0.1.0": feeds-modal, item, mail-icon
 
 // THE ID PREFIX every note on this site is minted under, so a permalink reads
