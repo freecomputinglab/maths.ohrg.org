@@ -11,4 +11,4 @@ js_scripts = "./index.js"
 
 [packages.rookery]
 repo = "https://github.com/freecomputinglab/rookery"
-branch = "0.1.0"
+branch = "dev"
