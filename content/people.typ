@@ -10,6 +10,6 @@ Everyone the group has read, and everyone who has read with us.
 // declared on `authors.typ`, and naming them one by one here would be a second
 // list to keep in step with the first.
 #window(
-  tags: "person",
+  tagged: "person",
   folded: true,
 )

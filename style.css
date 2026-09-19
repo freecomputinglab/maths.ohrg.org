@@ -429,9 +429,10 @@ h1.idea {
    lands anyway.
 
    `.session-page` is `idea-page`'s wrapper in content/nest/template.typ, and the
-   whole rule is a stand-in for `@rookery/core` growing a `show-title:` option
-   (filed as `rookery-e4y`): the heading is minted by the package, so a site
-   cannot decline to emit it — only hide it. */
+   whole rule was a stand-in for `@rookery/core` growing the option to decline
+   the minted heading rather than hide it. That option now exists as
+   `display-title:` (`rookery-e4y`, landed), so this rule and its wrapper are
+   replaceable by `display-title: false` on `#session`'s `idea(..)` call. */
 .session-page h1.idea {
   display: none;
 }
@@ -697,7 +698,7 @@ section[role="doc-endnotes"] ol li a[role="doc-backlink"] {
 
 /* Bigger and bolder than rookery's own default (0.57rem, weight 200), and in
    the site's own accent purple rather than the package's muted grey — the
-   homepage's `#window` calls turn this on with `show-date: true`, so a
+   homepage's `#window` calls turn this on with `display-date: true`, so a
    session's date reads as a real piece of information on the card's hat, not
    a faint label. `!important`: rheo emits this stylesheet BEFORE
    rookery/core/core.css in <head>, so the package's own `.idea-date` rule

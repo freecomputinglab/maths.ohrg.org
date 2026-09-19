@@ -1,10 +1,10 @@
 #import "template.typ": template
-#import "@rookery/core:0.1.0": tagged-idea
+#import "@rookery/core:0.1.0": idea
 
 #set document(title: [Authors])
 #show: template.with(current-page: "nest:authors")
 
-#let person = tagged-idea("person")
+#let person = idea.with(tag: "person")
 
 #person(<kermode-lachlan>, title: [Lachlan Kermode])[]
 #person(<stewart-william>, title: [William Stewart])[]

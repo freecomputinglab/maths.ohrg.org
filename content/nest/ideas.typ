@@ -1,12 +1,12 @@
 #import "template.typ": citation, template
-#import "@rookery/core:0.1.0": idea, tagged-idea, window
+#import "@rookery/core:0.1.0": idea, window
 
 #set document(title: [Ideas])
 #show: template.with(current-page: "nest:ideas")
 
-#let book = tagged-idea("book")
-#let essay = tagged-idea("essay")
-#let meeting = tagged-idea("meeting")
+#let book = idea.with(tag: "book")
+#let essay = idea.with(tag: "essay")
+#let meeting = idea.with(tag: "meeting")
 
 
 #essay(<proppVectorsLeibnizEinstein2023>, title: [Vectors from Leibniz to Einstein])[

@@ -34,14 +34,14 @@
 // own accord once its date is behind us, with no per-session edit here.
 #context {
   let today = datetime.today()
-  let upcoming = ideas(tags: "session")
+  let upcoming = ideas(tagged: "session")
     .filter(e => e.created != none and e.created >= today)
     .sorted(key: e => e.created)
 
   if upcoming.len() > 0 [
     = Upcoming session
 
-    #window(upcoming.map(e => e.name), folded: true, show-date: true)
+    #window(upcoming.map(e => e.name), folded: true, display-date: true)
   ]
 }
 

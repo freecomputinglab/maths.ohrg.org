@@ -5,8 +5,8 @@
 #show: template.with(current-page: "sessions")
 
 #window(
-  tags: "session",
+  tagged: "session",
   folded: true,
-  show-date: true,
+  display-date: true,
   sort: "date",
 )

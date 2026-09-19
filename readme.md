@@ -44,7 +44,7 @@ simply unlisted.
 ## Sessions
 
 A session is an `#idea` tagged `session`. The tag is the whole mechanism:
-`sessions.typ` lists them with `#window(tags: "session", sort: "date")`, and
+`sessions.typ` lists them with `#window(tagged: "session", sort: "date")`, and
 `index.typ` picks out the next one by comparing each note's date against the
 build's own. Adding a session is therefore one new `#session(...)` call appended
 to `content/nest/meetings.typ` — no separate file, no list to edit.
@@ -105,9 +105,10 @@ what a body still carries is only whatever was said on the day. Most are empty.
 Because that table names the reading, a session's minted page does NOT repeat it
 as a heading: `idea-page` wraps such a page in `.session-page` and `style.css`
 hides the `<h1>` there. The title is untouched everywhere else — every window
-summary, every reference, the browser tab. It is a stand-in: rookery mints the
-heading itself and has no way to leave it out, so hiding it is all a site can do
-(filed upstream as `rookery-e4y`, which adds `show-title:`).
+summary, every reference, the browser tab. It is a stand-in, and no longer a
+necessary one: `rookery-e4y` has landed as core's `display-title:`, so a session
+can now decline the heading outright rather than hide it. The wrapper and the
+CSS rule stay until that swap is made.
 The title does not repeat the date either, because the `[maths:26-08-03]`
 permalink beside it already carries it, in every listing the session appears in.
 

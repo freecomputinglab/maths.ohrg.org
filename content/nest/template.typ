@@ -152,9 +152,8 @@
   style: bytes(read("author-title.csl")),
 )
 
-// No `tagged-idea:` — this site is plain `@rookery/core` with no timeline or
-// todo skin, so the factory's own default (core's `tagged-idea`) is already
-// the right one.
+// No `mint:` — this site is plain `@rookery/core` with no timeline or todo
+// skin, so the factory's own default (core's `idea`) is already the right one.
 //
 // `show-fields` keys are BIBTEX FIELD NAMES, not the terms the block prints, and
 // the two differ for exactly the field wanted here: the `Accessed` row is
@@ -302,10 +301,11 @@
 // A CLASS RATHER THAN NOT EMITTING THE HEADING, because the heading is not this
 // file's to emit. `@rookery/core` mints the page — `.marrow.typ` builds the
 // permalink tab, the `<h1>`, the body and the footer as one content value and
-// hands the whole thing here as `doc` — and core has no way to leave the title
-// out of it (as of 0.1.0). Filed as `rookery-e4y`, which adds `show-title:` to
-// `#idea`/`rookery()` on the model of the `show-context:` pair; this wrapper
-// comes out when that lands.
+// hands the whole thing here as `doc`. `rookery-e4y` HAS NOW LANDED as core's
+// `display-title:` on `#idea`/`rookery()`, built on the model of the
+// `display-context:` pair, so a session can decline the heading rather than
+// hide it: this wrapper and `.session-page h1.idea` in style.css come out
+// together, replaced by `display-title: false` on `#session`'s `idea(..)` call.
 //
 // The tab keeps the page's `[maths:26-09-14]` id, its `session` pill and its
 // date, so a page with no heading still names itself.
@@ -328,7 +328,7 @@
     theme: THEME,
     idea-page-template: idea-page,
     bibliography: BIBLIOGRAPHY,
-    show-context: false,
+    display-context: false,
   )
   show: chrome.with(current-page: current-page)
   doc

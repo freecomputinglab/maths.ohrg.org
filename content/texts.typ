@@ -5,7 +5,7 @@
 #show: template.with(current-page: "texts")
 
 #window(
-  tags: "citation",
+  tagged: "citation",
   folded: true,
   sort: "lexicographic",
 )
