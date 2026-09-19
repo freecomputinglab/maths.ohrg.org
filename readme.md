@@ -103,12 +103,10 @@ two. The date is formatted from `updated:` — a session states its date once, a
 what a body still carries is only whatever was said on the day. Most are empty.
 
 Because that table names the reading, a session's minted page does NOT repeat it
-as a heading: `idea-page` wraps such a page in `.session-page` and `style.css`
-hides the `<h1>` there. The title is untouched everywhere else — every window
-summary, every reference, the browser tab. It is a stand-in, and no longer a
-necessary one: `rookery-e4y` has landed as core's `display-title:`, so a session
-can now decline the heading outright rather than hide it. The wrapper and the
-CSS rule stay until that swap is made.
+as a heading: `#session` passes `display-title: false`, and core then mints the
+page without an `<h1>` at all. The title is untouched everywhere else — every
+window summary, every reference, the browser tab — because `display-title`
+governs the minted page and nothing else.
 The title does not repeat the date either, because the `[maths:26-08-03]`
 permalink beside it already carries it, in every listing the session appears in.
 

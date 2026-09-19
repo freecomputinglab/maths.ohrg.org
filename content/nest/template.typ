@@ -131,11 +131,20 @@
   // date can contradict the note's actual history, so lifecycle moved to
   // `@rookery/timeline`. A session has a single authored date anyway — when it
   // happens — so it lands in the one slot and `index.typ` splits on it.
+  //
+  // A SESSION'S OWN PAGE DOES NOT REPEAT ITS TITLE. The title is the session's
+  // reading — "Handelman on the mathematical imagination" — which is what a
+  // window summary, a reference and the browser tab need, and what the page
+  // does not: the header table built above names the same reading, its authors
+  // and its date directly below where the heading would sit. `display-title`
+  // governs the MINTED PAGE ONLY, so the title stays everywhere a reader finds
+  // the session by it.
   idea(
     name,
     title: named.title,
     tags: ("session",) + tags,
     created: when,
+    display-title: false,
     full-body,
   )
 }
@@ -292,31 +301,23 @@
 // different value in every vertebra. Applies `chrome`, not `template`, or the
 // two would reference each other.
 //
-// `session-page` IS A CLASS FOR ONE RULE: hiding a session's `<h1>` on its own
-// page (see `.session-page h1.idea` in style.css). A session's title is its
-// reading — "Handelman on the mathematical imagination" — which is what a
-// listing needs and what this page does not: the header table under it names the
-// same reading, its authors and its date, so the heading says it twice.
-//
-// A CLASS RATHER THAN NOT EMITTING THE HEADING, because the heading is not this
-// file's to emit. `@rookery/core` mints the page — `.marrow.typ` builds the
-// permalink tab, the `<h1>`, the body and the footer as one content value and
-// hands the whole thing here as `doc`. `rookery-e4y` HAS NOW LANDED as core's
-// `display-title:` on `#idea`/`rookery()`, built on the model of the
-// `display-context:` pair, so a session can decline the heading rather than
-// hide it: this wrapper and `.session-page h1.idea` in style.css come out
-// together, replaced by `display-title: false` on `#session`'s `idea(..)` call.
+// NO SESSION BRANCH. A session's page drops its `<h1>` through `#session`'s own
+// `display-title: false` (see there for why), which core honours when it mints
+// the page — so this file no longer wraps a session in a class for a stylesheet
+// to hide. That was the stand-in written before `display-title` existed, and it
+// cost the page its anchor: core moves the id onto `.idea-head` when the heading
+// goes, where hiding an emitted `<h1>` left it inside a `display: none`.
 //
 // The tab keeps the page's `[maths:26-09-14]` id, its `session` pill and its
 // date, so a page with no heading still names itself.
+//
+// `citation` is the one branch left: `@rookery/bibtex` draws the work's fields
+// at the foot of the page rather than in its body, so it cannot ride along in
+// `doc`.
 #let idea-page(id: none, note: (:), doc) = {
   show: chrome.with(current-page: id)
   let tags = note.at("tags", default: (:))
-  if "session" in tags {
-    html.elem("div", attrs: (class: "session-page"), doc)
-  } else {
-    doc
-  }
+  doc
   if id != none and "citation" in tags {
     bib-fields(id.split(":").last())
   }
