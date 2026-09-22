@@ -1,5 +1,5 @@
 #import "template.typ": template
-#import "@rookery/core:0.1.0": idea
+#import "@rookery/core:0.1.1": idea
 
 #set document(title: [Authors])
 #show: template.with(current-page: "nest:authors")

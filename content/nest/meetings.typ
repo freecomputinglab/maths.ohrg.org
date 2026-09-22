@@ -1,4 +1,4 @@
-#import "@rookery/core:0.1.0": window
+#import "@rookery/core:0.1.1": window
 #import "template.typ": session, template
 
 // THE REGISTER of every session the group has held, and the only place they are

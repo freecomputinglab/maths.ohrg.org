@@ -1,6 +1,6 @@
-#import "@rookery/core:0.1.0": idea, rookery
-#import "@rookery/search:0.1.0": search-modal
-#import "@rookery/bibtex:0.1.0": bibtex
+#import "@rookery/core:0.1.1": idea, rookery
+#import "@rookery/search:0.1.1": search-modal
+#import "@rookery/bibtex:0.1.1": bibtex
 #import "@rheo/justify:0.1.2": template as justify-template
 #import "@rheo/feeds:0.1.0": feeds-modal, item, mail-icon
 

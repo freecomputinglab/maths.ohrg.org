@@ -1,5 +1,5 @@
 #import "template.typ": citation, template
-#import "@rookery/core:0.1.0": idea, window
+#import "@rookery/core:0.1.1": idea, window
 
 #set document(title: [Ideas])
 #show: template.with(current-page: "nest:ideas")

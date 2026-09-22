@@ -1,5 +1,5 @@
 #import "template.typ": template
-#import "@rookery/core:0.1.0": idea
+#import "@rookery/core:0.1.1": idea
 
 #set document(title: [About], date: datetime(year: 2026, month: 8, day: 17))
 #show: template.with(current-page: "nest:about")
