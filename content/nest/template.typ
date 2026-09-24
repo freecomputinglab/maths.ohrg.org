@@ -205,7 +205,7 @@
     .inputs
     .at("rheo-context", default: (spine-flat: ()))
     .spine-flat
-    .filter(v => v.handle != "index" and not v.handle.starts-with("nest:"))
+    .filter(v => v.handle == "sessions")
 )
 
 // Every page link goes through `link(label(<handle>))`, never a written

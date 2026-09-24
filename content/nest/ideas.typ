@@ -14,6 +14,13 @@
   - Published: 2023.
 ]
 
+#citation(
+  <handelmanTroubleLogicalPositivism2019>,
+)[
+  - Author: @maths:handelman-matthew[Matthew Handelman].
+  - The first chapter of @maths:handelmanMathematicalImaginationOrigins2019.
+]
+m
 #book(
   <handelmanMathematicalImaginationOrigins2019>,
   title: [The Mathematical Imagination: On the Origins and Promise of Critical Theory],

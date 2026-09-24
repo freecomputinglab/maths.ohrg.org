@@ -341,7 +341,7 @@
 #session(
   <26-09-30>,
   title: [Handelman on the mathematical imagination],
-  reading: (<handelmanMathematicalImaginationOrigins2019>,),
+  reading: (<handelmanTroubleLogicalPositivism2019>,),
   authors: (<handelman-matthew>,),
   updated: datetime(year: 2026, month: 9, day: 30),
 )[]
