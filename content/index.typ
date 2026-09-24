@@ -39,7 +39,7 @@
     .sorted(key: e => e.created)
 
   if upcoming.len() > 0 [
-    = Upcoming session
+    = Upcoming sessions
 
     #window(upcoming.map(e => e.name), folded: true, display-date: true)
   ]
