@@ -339,6 +339,14 @@
 ]
 
 #session(
+  <26-09-16>,
+  title: [Propp on vectors from Leibniz to Einstein],
+  reading: (<proppVectorsLeibnizEinstein2023>,),
+  authors: (<propp-james>,),
+  updated: datetime(year: 2026, month: 9, day: 16),
+)[]
+
+#session(
   <26-09-30>,
   title: [Handelman on the mathematical imagination],
   reading: (<handelmanTroubleLogicalPositivism2019>,),
@@ -347,9 +355,15 @@
 )[]
 
 #session(
-  <26-09-16>,
-  title: [Propp on vectors from Leibniz to Einstein],
-  reading: (<proppVectorsLeibnizEinstein2023>,),
-  authors: (<propp-james>,),
-  updated: datetime(year: 2026, month: 9, day: 16),
-)[]
+  <26-10-14>,
+  title: [Clements on Terence Tao],
+  reading: (<clementsTerenceTao1984>,),
+  authors: (<tao-terence>,),
+  updated: datetime(year: 2026, month: 10, day: 14),
+)[
+  With optional additions:
+  - #link("https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/")[A Severe Misalignment in Mathematics], Tao's and other Fields Medalists' declaration in response to the Navier-Stokes solution.
+  - #link("https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56")[Tao's work with ChatGPT]
+]
+
+

@@ -124,3 +124,7 @@ m
   - birds, _rewilding_ the metaphors of systems and software.
   - is this a *more materialst intervention* on the politics of the algorithm as a concept?
 ]
+
+#citation(<clementsTerenceTao1984>)[
+  - Author: @maths:tao-terence.
+]

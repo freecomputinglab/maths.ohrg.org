@@ -58,3 +58,4 @@
 #person(<horkheimer-max>, title: [Max Horkheimer])[]
 #person(<neurath-otto>, title: [Otto Neurath])[]
 #person(<carnap-rudolf>, title: [Rudolf Carnap])[]
+#person(<tao-terence>, title: [Terence Tao])[]
