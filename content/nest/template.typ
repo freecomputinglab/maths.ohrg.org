@@ -149,6 +149,11 @@
   )
 }
 
+#let book = idea.with(tag: "book")
+#let essay = idea.with(tag: "essay")
+#let meeting = idea.with(tag: "meeting")
+#let person = idea.with(tag: "person")
+
 #let THEME = (
   link-color: "rgba(88, 28, 135, 0.16)",
   fold-color: "rgba(88, 28, 135, 0.07)",
@@ -201,11 +206,7 @@
 // index page already carries that prose — a reader landing on the site reads
 // it there.
 #let site-pages = (
-  sys
-    .inputs
-    .at("rheo-context", default: (spine-flat: ()))
-    .spine-flat
-    .filter(v => v.handle == "sessions")
+  sys.inputs.at("rheo-context", default: (spine-flat: ())).spine-flat.filter(v => v.handle == "sessions")
 )
 
 // Every page link goes through `link(label(<handle>))`, never a written

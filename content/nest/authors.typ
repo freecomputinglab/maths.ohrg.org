@@ -1,10 +1,9 @@
-#import "template.typ": template
+#import "template.typ": person, template
 #import "@rookery/core:0.1.1": idea
 
 #set document(title: [Authors])
 #show: template.with(current-page: "nest:authors")
 
-#let person = idea.with(tag: "person")
 
 #person(<kermode-lachlan>, title: [Lachlan Kermode])[]
 #person(<stewart-william>, title: [William Stewart])[]
@@ -53,9 +52,4 @@
 #person(<bernoulli-daniel>, title: [Daniel Bernoulli])[]
 #person(<bernoulli-johann>, title: [Johann Bernoulli])[]
 #person(<jing-felicia>, title: [Felicia Jing])[]
-#person(<handelman-matthew>, title: [Matthew Handelman])[]
-#person(<adorno-theodor>, title: [Theodor Adorno])[]
-#person(<horkheimer-max>, title: [Max Horkheimer])[]
-#person(<neurath-otto>, title: [Otto Neurath])[]
-#person(<carnap-rudolf>, title: [Rudolf Carnap])[]
 #person(<tao-terence>, title: [Terence Tao])[]

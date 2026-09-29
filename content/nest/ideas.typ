@@ -1,12 +1,8 @@
-#import "template.typ": citation, template
+#import "template.typ": book, citation, essay, meeting, template
 #import "@rookery/core:0.1.1": idea, window
 
 #set document(title: [Ideas])
 #show: template.with(current-page: "nest:ideas")
-
-#let book = idea.with(tag: "book")
-#let essay = idea.with(tag: "essay")
-#let meeting = idea.with(tag: "meeting")
 
 
 #essay(<proppVectorsLeibnizEinstein2023>, title: [Vectors from Leibniz to Einstein])[
@@ -14,34 +10,6 @@
   - Published: 2023.
 ]
 
-#citation(
-  <handelmanTroubleLogicalPositivism2019>,
-)[
-  - Author: @maths:handelman-matthew[Matthew Handelman].
-  - The first chapter of @maths:handelmanMathematicalImaginationOrigins2019.
-]
-m
-#book(
-  <handelmanMathematicalImaginationOrigins2019>,
-  title: [The Mathematical Imagination: On the Origins and Promise of Critical Theory],
-)[
-
-  - Author: @maths:handelman-matthew[Matthew Handelman].
-  - Published: 2019.
-
-  Introduces @maths:negative-mathematics[negative mathematics] as a riposte to dismissing mathematics as aligned with an uncritical, capitalist notion of progress.
-]
-
-#idea(<negative-mathematics>, title: [Negative Mathematics])[
-  Coined in the introduction to  @maths:handelmanMathematicalImaginationOrigins2019[his book], 'negative mathematics' is Handelman's bid to name an approach to critical theory, mathematics, computer science, and the digital humanities which takes mathematics seriously as a part of an emancipatory project.
-
-  Humanists ought not to treat mathematics solely as a discipline and syntax of thought inrecupreably allied with capital, a viewpoint that Handelman argues has washed over the humanities since the 1930 debate between @maths:horkheimer-max[Horkheimer]/@maths:adorno-theodor[Adorno] (the Frankfurt School / critical theory) and @maths:neurath-otto[Neurath]/@maths:carnap-rudolf[Carnap] (the Vienna Circle / logical positivism),
-]
-
-#essay(<horkheimerDialecticEnlightenment2002>, title: [Dialectic of Enlightenment])[
-  - Author: @maths:horkheimer-max[Max Horkheimer] and @maths:adorno-theodor[Theodor Adorno]
-  - Published: 1947.
-]
 
 #citation(<jingAlgorithm2026>, tags: "essay")[
   - Author: @maths:jing-felicia.
