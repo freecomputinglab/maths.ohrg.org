@@ -57,16 +57,18 @@
 ]
 
 
-#idea(<intro-handelman>)[
+#idea(<intro-handelman>, title: [Mixing with mathematics])[
+  By @maths:kermode-lachlan.
+
   I'm delighted today to introduce Matt Handelman, who is an Associate Professor of German, a member of the Core Faculty in Digital Humanities, and Affiliated Faculty in Jewish Studies at Michigan State University.
-  Today we're discussing a chapter from his book _The Mathematical Imagination: On the Origins and Promise of Critical Theory_, published by Fordham Press in 2019.
-  Matt argues that critical theory caricatures mathematics as "a mere instrument of reason akin to a form of political quietism" @handelmanTroubleLogicalPositivism2019[p.40] through a reductionist equation of mathematics with a total rationalization of the world, words put in the mouth by the hand of logical positivism.
-  Critical theory---read principally through a close and critical engagement with Horkheimer's and Adorno's magnum opus "Dialectic of Enlightenment"---treats logical positivism, in turn, as a school of thought that is "a synecdoche for an exclusionary type of meaning" @handelmanTroubleLogicalPositivism2019[p.39] and guilty of a "stubborn adherence to and repetition of the given" @handelmanTroubleLogicalPositivism2019[p.47].
-  Lacking separation between mathematics as a discipline, culture, and field of thought on the one hand, and logical positivism's strongarming of it into empiricism's true form of appearance, the ideal vocabulary to objectively account for the world,  Critical theory in the wake of Horkheimer and Adorno has turned a blind eye to its political and critical potential.
+  Today we're discussing a chapter from his book _The Mathematical Imagination: On the Origins and Promise of Critical Theory_, published by Fordham University Press in 2019.
+  Matt argues that critical theory caricatures mathematics as "a mere instrument of reason akin to a form of political quietism" @handelmanTroubleLogicalPositivism2019[p.40] through a reductionist equation of mathematics with a total rationalization of the world, words put in its mouth by logical positivism.
+  Critical theory---read principally through a close and critical engagement with Horkheimer and Adorno's magnum opus _Dialectic of Enlightenment_---treats logical positivism, in turn, as a school of thought that is "a synecdoche for an exclusionary type of meaning" @handelmanTroubleLogicalPositivism2019[p.39] and guilty of a "stubborn adherence to and repetition of the given" @handelmanTroubleLogicalPositivism2019[p.47].
+  Critical theory in the wake of Horkheimer and Adorno has failed to separate mathematics as a discipline, a culture, and a field of thought from logical positivism's strong-arming of it into empiricism's true form of appearance, the ideal vocabulary for objectively accounting for the world, and so has turned a blind eye to mathematics' political and critical potential.
   Though Matt argues that the critical account of logical positivism is merited, he recognizes how it has given mathematics as a whole a bad name, mischaracterizing it as a bad infinity with which critical philosophy should not engage.
 
   The resolution of this squabble, Matt proposes, is a project that he calls *negative mathematics* in the shadow of Adorno's notion of a negative dialectics.
-  Negative mathematics overcomes the Frankfurt School objection by seeing mathematics as an ideology that does not flatten the world out as a set of protocol sentences, but as a discourse which already has style, space for interpretation, and contingency.
+  Negative mathematics overcomes the Frankfurt School objection by seeing mathematics not as an ideology that flattens the world out into a set of protocol sentences, but as a discourse which already has style, space for interpretation, and contingency.
   What Matt calls negative mathematics is what some of the mathematicians we have read in this group, such as Giuseppe Longo, would probably just call 'mathematics'.
   The mistreatment of mathematics by the critical and theoretical humanities is a theme with which we in this group have engaged before, and before handing over to Matt to say something if he would like to, I want to draw out just two ways in which the necessity of negative mathematics seems to be appearing in affairs proximate to us today.
 
@@ -76,19 +78,19 @@
     block: true,
   )[Language and philosophy both depend on their content as much as on their form: the power of language lies in the dialectical interaction between what I say and how I do it. @handelmanTroubleLogicalPositivism2019[p.39]]
 
-  If we replaced 'language and philosophy' here with mathematics and dropped the word 'dialectical', we have what I see as quite a similar stance to the mainstream reaction to OpenAI's production of a Lean formalization proving the Navier-Stokes existence and smoothness problem with over 10,000 AI agents in approximately 88 hours.
-  As two prominent mathematicians put it in a joint-authored blog post in response to the looming question of whether OpenAI's result would sunset mathematics:
+  If we replace 'language and philosophy' here with 'mathematics' and drop the word 'dialectical', we have what I see as quite a similar stance to the mainstream reaction to OpenAI's production of a Lean formalization resolving the Navier--Stokes existence and smoothness problem with over 11,000 AI agents in approximately 88 hours.
+  As two prominent mathematicians put it in a co-authored blog post in response to the looming question of whether OpenAI's result would sunset mathematics:
 
   #quote(
     block: true,
   )[Mathematics is clearly a much broader enterprise than just problem solving. Mathematicians strive to develop new concepts and theories, to ask and answer new questions, to unify disparate areas, to educate and sustain scholarly communities, and to produce work that is valued for its beauty and depth @detoffoliMath2026.]
 
-  This might be evidence that what we call mathematics in the academic-institutional sense today is quite different than what Horkheimer and Adorno called mathematics.
-  It is also true, I think, that we have more extensive vocabularies in the twenty-first century to differentiate different kinds of mathematical enterprise, in no small part due to the proliferation of the computing sciences.
-  There are aspects of Adorno's and Horkheimer's critique that still ring piercingly true when we substitute the term 'mathematics' for 'computing', for example, such as the idea that it "underpin[s] the categories of economic utility, scientific advancement, rationalization, and, ultimately, the domination of nature as a prime example of instrumental reason" @handelmanTroubleLogicalPositivism2019[p.29].
-  For anything that the artificial intelligentsia cannot reduce to numbers, they dismiss as irrelevant to the essential function: of language, of image and video, and of life @handelmanTroubleLogicalPositivism2019[p.37].
+  This might be evidence that what we call mathematics in the academic-institutional sense today is quite different from what Horkheimer and Adorno called mathematics.
+  It is also true, I think, that we have more extensive vocabularies in the twenty-first century to distinguish different kinds of mathematical enterprise, in no small part due to the proliferation of the computing sciences.
+  There are aspects of Adorno and Horkheimer's critique that still ring piercingly true when we substitute 'computing' for 'mathematics', such as the idea that it "underpin[s] the categories of economic utility, scientific advancement, rationalization, and, ultimately, the domination of nature as a prime example of instrumental reason" @handelmanTroubleLogicalPositivism2019[p.29].
+  Anything that the artificial intelligentsia cannot reduce to numbers they dismiss as irrelevant to the essential function of language, of image and video, and of life @handelmanTroubleLogicalPositivism2019[p.37].
 
   Just as an empiricism rooted in protocol sentences ultimately flowers as the crudest kind of mathematical idealism when we look at it in the rearview mirror of critical theory, the data empiricism that we see blossoming today in the atmosphere of rhetorical grandiosity, in artificial general intelligence and world models, seems the most immature kind of scientific realism.
-  Critical theory's suspicion of about mathematical logic also seems a weed we are yet to propely root out: mathematicsa and the computing sciences hardly mix with the humanities, except at the mixers where the mathematical sciences and the humanities are lined up on either side of the conference venue and asked to move arm-in-arm, courting each other.
+  Critical theory's suspicion of mathematical logic also seems a weed we are yet to properly root out: mathematics and the computing sciences hardly mix with the humanities, except at the mixers where the mathematical sciences and the humanities are lined up on either side of the conference venue and asked to move arm-in-arm, courting each other.
 
 ]

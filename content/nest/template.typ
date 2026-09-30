@@ -163,7 +163,7 @@
 
 #let BIBLIOGRAPHY = arguments(
   bytes(read("references.bib")),
-  style: bytes(read("author-title.csl")),
+  style: "chicago-author-date",
 )
 
 // No `mint:` — this site is plain `@rookery/core` with no timeline or todo

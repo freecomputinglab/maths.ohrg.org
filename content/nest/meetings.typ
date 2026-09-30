@@ -352,7 +352,9 @@
   reading: (<handelmanTroubleLogicalPositivism2019>,),
   authors: (<handelman-matthew>,),
   updated: datetime(year: 2026, month: 9, day: 30),
-)[]
+)[
+  #window(<intro-handelman>)
+]
 
 #session(
   <26-10-14>,
