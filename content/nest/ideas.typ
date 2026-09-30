@@ -33,7 +33,7 @@
 
   #quote(
     block: true,
-  )[In a vanishing act of 'hiding the machine', algorithms are sanitized not only from the material development of hardware, its dirty industrial history, its dependency on the labor of earlier 'human computers' but also---importantly--from the _state_ machine. That is, the centralized bureaucratic state, class antogonisms, and the legal forms of coercion were, at every moment, a site of struggle over and against the *political form* of an alorithm. @jingAlgorithm2026[pp.8-9]]
+  )[In a vanishing act of 'hiding the machine', algorithms are sanitized not only from the material development of hardware, its dirty industrial history, its dependency on the labor of earlier 'human computers' but also---importantly--from the _state_ machine. That is, the centralized bureaucratic state, class antogonisms, and the legal forms of coercion were, at every moment, a site of struggle over and against the *political form* of an alorithm. @jingAlgorithm2026[8--9]]
 
   Jing goes on to show how the conceptual constitution of the 'algorithm' as prehistorical flattens the history of computer science into a crude, teleological account, geared towards a narrative of ever-advancing progress.
   This flattened conception squeezes the possibility of criticality, politicality, and thus an emancipatory politics from the entire enterprise of computing, readying it to be cast, like a ketchup wrapper, into the dustbins of history as a bone that could never stick in the throat of capital's voracious appetite.
