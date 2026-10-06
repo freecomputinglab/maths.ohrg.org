@@ -54,45 +54,6 @@
   This is what Jing's essay illuminates for us, and I'll now turn over to her to say a few words about it before we open up for any and all questions and comments as usual.
 ]
 
-#meeting(<jing-31-8-26>)[
-  - working on the 'history of the history of algoritms'; or, the 'improper history of algorithms'.
-
-  Mikey: key term = "repression of the state".
-  Fred Turner - machines associated with the military industrial complex become rebranded as liberatory devices.
-  - the period in which software engineering was being legitimized = a very interesting period in history of the 'state'.
-
-  The 'generalization' problem: how do you separate an algorithm from its context?
-  Felicia: how did it become possible to allude to images/metaphors so far away.
-  Mirowski's claim: computer scientists had a physics envy.
-
-  prehistoric orientalizing = distinct but related to the popularizing metaphors.
-
-  Lindsay: algorithms seen very much as a threat to bourgeios individuality, rather than a buttress.
-
-  Felicia: rest of the dissertation is about the tautology of 'plans' and 'planning' with computer science.
-
-  Holly: what is really at stake in the _democratization_ of programming, of making it better.
-  How does the democratization of an academic field relate to the politics of democratization.
-  The definition of an algorithm actually emerges with Ada Lovelace (100 years before, in the Babbage context) `potentially a really strong connection to capital / Marx`.
-  *an elegant kick* - any metaphor throws us into material history.
-  - Holly: "should we always get our kick from the concept?"
-
-  Felicia's broader argument = state planning is a positive conception of the history of algorithms.
-
-  == building on this notion of state planning, Holly and the democratization of programming
-  - aside: `in the archaeological register, regarding Mesopotamian history: should be compared to Israel/Palestine and the coloniality of archaeology.`
-  - resonant with Marx's comment in the _Grundrisse_, the man is the key to the ape.
-
-  - Shriram, Will, and the way that CS is _taught_.
-  ACM defines computing as the definition of a procedure.
-  - `one interesting aspect here is the _computer_ itself as a logical entity.`
-  - the metaphors for algorithms, always seen as 'innocent'.
-  - what I wonder is whether you are calling for a *rehistoricization of computing*, as Marx would call for with bourgieous society: refusing to allow this prehistorical goo to serve as the narrative.
-    `this is particularly interesting as a site of intervention for CS education, i.e. building a distribution system rather than a bank.`
-  - birds, _rewilding_ the metaphors of systems and software.
-  - is this a *more materialst intervention* on the politics of the algorithm as a concept?
-]
-
 #citation(<clementsTerenceTao1984>)[
   - Author: @maths:tao-terence.
 ]
