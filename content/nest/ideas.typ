@@ -57,3 +57,7 @@
 #citation(<clementsTerenceTao1984>)[
   - Author: @maths:tao-terence.
 ]
+
+#citation(<menonMathematicalFolklore2026>)[
+  - Authors: @maths:menon-govind and @maths:venkatesh-akshay.
+]

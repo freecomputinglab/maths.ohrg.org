@@ -368,4 +368,13 @@
   - #link("https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56")[Tao's work with ChatGPT]
 ]
 
+#session(
+  <26-10-28>,
+  title: [Menon/Venkatesh on mathematical folklore],
+  reading: (<menonMathematicalFolklore2026>,),
+  authors: (<menon-govind>, <venkatesh-akshay>),
+  updated: datetime(year: 2026, month: 10, day: 28),
+)[
+]
+
 

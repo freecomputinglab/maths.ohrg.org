@@ -53,3 +53,5 @@
 #person(<bernoulli-johann>, title: [Johann Bernoulli])[]
 #person(<jing-felicia>, title: [Felicia Jing])[]
 #person(<tao-terence>, title: [Terence Tao])[]
+#person(<menon-govind>, title: [Govind Menon])[]
+#person(<venkatesh-akshay>, title: [Akshay Venkatesh])[]
