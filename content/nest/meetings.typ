@@ -369,11 +369,11 @@
 ]
 
 #session(
-  <26-10-28>,
+  <4-11-28>,
   title: [Menon/Venkatesh on mathematical folklore],
   reading: (<menonMathematicalFolklore2026>,),
   authors: (<menon-govind>, <venkatesh-akshay>),
-  updated: datetime(year: 2026, month: 10, day: 28),
+  updated: datetime(year: 2026, month: 11, day: 4),
 )[
 ]
 
