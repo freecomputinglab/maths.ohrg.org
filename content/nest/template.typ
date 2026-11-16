@@ -205,9 +205,13 @@
 // cites them, not through a list of everything. `about` is nested because the
 // index page already carries that prose — a reader landing on the site reads
 // it there.
-#let site-pages = (
-  sys.inputs.at("rheo-context", default: (spine-flat: ())).spine-flat.filter(v => v.handle == "sessions")
-)
+#let site-pages = {
+  let store = sys.inputs.at("rheo-spine", default: none)
+  let flat = if store != none { store.get("spine-flat") } else {
+    sys.inputs.at("rheo-context", default: (spine-flat: ())).spine-flat
+  }
+  flat.filter(v => v.handle == "sessions")
+}
 
 // Every page link goes through `link(label(<handle>))`, never a written
 // `href`: rheo rewrites that form depth-relatively, which it must, since minted
